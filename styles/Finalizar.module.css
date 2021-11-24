@@ -55,21 +55,15 @@ header .infos > div:first-child p {
 
 /* Products */
 .products {
-  margin-bottom: 150px;
+  margin: 50px 0;
 }
 
 .products h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.products__wrapper {
-  margin: 0px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
-}
-
-.btnWhatsApp {
+.products .btnWhatsApp {
   display: block;
   margin: 50px auto 0 auto;
   width: fit-content;
@@ -77,15 +71,18 @@ header .infos > div:first-child p {
   border-radius: 10px;
   border: 1px solid rgb(73, 194, 94);
   transition: 0.3s all;
-  color: #fff;
-  background-color: rgb(73, 194, 94);
-
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  color: rgb(73, 194, 94);
+  background-color: transparent;
 }
 
-.btnWhatsApp:hover {
-  background-color: rgb(58, 143, 72);
+.products .btnWhatsApp:hover {
+  color: #fff;
+  background-color: rgb(73, 194, 94);
+}
+
+.products__wrapper {
+  margin: 0px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
 }

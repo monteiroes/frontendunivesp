@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-color: #f9f9f9;
 }
 
 a {
@@ -13,4 +15,63 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* Buttons */
+
+.btn {
+  text-decoration: none;
+  border: none;
+}
+
+.btn-wpp {
+  padding: 15px 10px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background-color: #00df72;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1rem;
+  transition: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-wpp svg {
+  margin-right: 10px;
+  filter: invert(1);
+}
+
+.btn-wpp:hover {
+  background-color: #039e53;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead td {
+  color: rgb(83, 80, 80);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table tr {
+  min-width: 100%;
+}
+
+table td {
+  border-bottom: 1px solid rgba(90, 90, 90, 0.397);
+  padding: 10px 30px;
+  min-width: fit-content;
+}
+
+table tbody td {
+  color: rgb(73, 72, 72);
 }
