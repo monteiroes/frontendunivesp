@@ -20,7 +20,7 @@ export default function Home() {
     const productArray = [];
 
     productsItems.map((item, pos) => {
-      let itemText = `*x${item.quantity}* - ${item.name} - Por: R$ ${item.total}`;
+      let itemText = `*${item.quantity}* - ${item.name} - Por: R$ ${item.total}`;
 
       productArray.push(itemText);
     });
@@ -117,7 +117,7 @@ export default function Home() {
                   <tr key={pos}>
                     <td>{item.name}</td>
                     <td>{item.description}</td>
-                    <td>x{item.quantity}</td>
+                    <td>{item.quantity}</td>
                     <td>R$ {item.total}</td>
                   </tr>
                 ))}

@@ -11,8 +11,7 @@ export default function Home() {
 
   const products = [
     {
-      image:
-        "https://dourados.saofranciscoonline.com/media/catalog/product/cache/1/image/855x635/9df78eab33525d08d6e5fb8d27136e95/q/u/queijo-mussarela-fatiado-26307.jpg.jpg",
+      image: "http://dev.monsi.com.br/univesp/01/images/mussarela.jpg",
       name: "Queijo muçarela",
       info: "Peças de aproximadamente 1Kg",
       description:
@@ -21,21 +20,83 @@ export default function Home() {
       priceType: "Kg",
     },
     {
-      image:
-        "https://dourados.saofranciscoonline.com/media/catalog/product/cache/1/image/855x635/9df78eab33525d08d6e5fb8d27136e95/q/u/queijo-mussarela-fatiado-26307.jpg.jpg",
-      name: "Queijo Indiano",
-      info: "Peças de aproximadamente 12Kg",
-      description: "Queijo do tipo Indiano muito bom.",
-      price: "14.90",
+      image: "http://dev.monsi.com.br/univesp/01/images/queijo_minas.png",
+      name: "Queijo branco (minas)",
+      info: "",
+      description:
+        "Queijo branco do tipo minas frescal, ótimo para acompanhar o café da manhã.",
+      price: "28.90",
       priceType: "Kg",
     },
     {
+      image: "http://dev.monsi.com.br/univesp/01/images/leite.jpg",
+      name: "Leite da roça",
+      info: "",
+      description:
+        "Leite direto da fazenda para sua mesa, natural e livre de aditivos. Vendido por litro.",
+      price: "4.00",
+      priceType: "L",
+    },
+    {
       image:
-        "https://dourados.saofranciscoonline.com/media/catalog/product/cache/1/image/855x635/9df78eab33525d08d6e5fb8d27136e95/q/u/queijo-mussarela-fatiado-26307.jpg.jpg",
-      name: "Queijo Australiano",
-      info: "Peças de aproximadamente 11Kg",
-      description: "Queijo do tipo australiano é muito bom, comprem.",
-      price: "24.90",
+        "http://dev.monsi.com.br/univesp/01/images/manteiga_caseira_com_nata_7232_600.jpeg",
+      name: "Manteiga caseira (pote 500g)",
+      info: "",
+      description:
+        "Manteiga caseira, perfeita para um pão quentinho. Vendida em pote de 500g.",
+      price: "18.00",
+      priceType: "Un",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/ovos.jpg",
+      name: "Ovo caipira",
+      info: "(Dúzia)",
+      description: "Ovos caipiras vermelhos orgânicos. Vendidos em dúzias.",
+      price: "10.00",
+      priceType: "dúzia",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/mel.jpg",
+      name: "Mel puro",
+      info: "Pote 500g",
+      description:
+        "Mel colhido direto da fazendo, para consumo direto ou adoçar suas bebidas e receitas. Vendido em potes de 500g.",
+      price: "15.00",
+      priceType: "Un",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/frango.jpg",
+      name: "Frango caipira",
+      info: "",
+      description:
+        "Frango caipira inteiro, limpo e pronto para preparo. Vendido por unidades, pesado na hora.",
+      price: "32.00",
+      priceType: "Kg",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/porco.jpg",
+      name: "Porco caipira",
+      info: "",
+      description:
+        "Porco caipira, limpo e pronto para preparo. Vendido inteiro ou em partes por Kg, pesado na hora.",
+      price: "25.00",
+      priceType: "Kg",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/cordeiro.jpg",
+      name: "Cordeiro",
+      info: "",
+      description:
+        "Cordeiro, limpo e pronto para preparo. Vendido inteiro ou em partes por Kg, pesado na hora..",
+      price: "35.00",
+      priceType: "Kg",
+    },
+    {
+      image: "http://dev.monsi.com.br/univesp/01/images/carne_seca.jpg",
+      name: "Carne seca",
+      info: "",
+      description: "Carne seca, vendida por Kg.",
+      price: "20.00",
       priceType: "Kg",
     },
   ];

@@ -5,6 +5,10 @@
 
   border-radius: 10px;
   padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product__item h2 {
