@@ -81,14 +81,14 @@ export default function Home() {
           <div>
             {/* <div className={styles.logo}></div> */}
             <div>
-              <h1>Empresa</h1>
-              <p>Lorem ipsum dolor sit</p>
+              <h1>Fazenda do Dito</h1>
+              <p>Produtos artesanais.</p>
             </div>
           </div>
 
           <div>
             <strong>Horario de atendimento</strong>
-            <p>Seg / Sex das 08h - 19h</p>
+            <p>Seg / Sex das 09h - 17h</p>
           </div>
           <div>
             <strong>Contato</strong>
