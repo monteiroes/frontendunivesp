@@ -1,6 +1,6 @@
 header .banner {
   min-height: 300px;
-  background-image: url(../public/fazenda.jpeg);
+  background-image: url(../public/Z37Ctm0.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -71,13 +71,14 @@ header .infos > div:first-child p {
   border-radius: 10px;
   border: 1px solid rgb(73, 194, 94);
   transition: 0.3s all;
-  color: rgb(73, 194, 94);
-  background-color: transparent;
+  color: #fff;
+  background-color: rgb(73, 194, 94);
 }
 
 .products .btnWhatsApp:hover {
   color: #fff;
-  background-color: rgb(73, 194, 94);
+  background-color: rgb(58, 143, 72);
+  border-color: rgb(58, 143, 72);
 }
 
 .products__wrapper {
@@ -90,7 +91,7 @@ header .infos > div:first-child p {
 @media (max-width: 768px) {
   header .banner {
     min-height: 300px;
-    background-image: url(../public/fazenda.jpeg);
+    background-image: url(../public/Z37Ctm0.png);
     background-repeat: no-repeat;
     background-size: cover;
 
